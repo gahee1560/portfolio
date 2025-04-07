@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김가희 웹퍼블리셔 포트폴리오</title>
+  <!-- jQeury -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <!-- Font - Pretendard -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/css/pretendard.css">
+  <!-- CSS & JS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="js/custom.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="inner">
+      <div class="header-content">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#process">process</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- Home -->
+  <section class="home">
+    <div class="inner">
+      <div class="home-content">
+        <div class="title-box">
+          <h1>from-passion</h1>
+          <h1>to-creation</h1>
+          <p>
+            끊임없이 발전하는 웹 퍼블리셔로서 사용자의 니즈를 정확히 이해하고 <br>
+            혁신적인 솔루션을 제안하는 포트폴리오
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+  <section class="about">
+    <div class="inner">
+      <div class="about-content">
+        <div class="sub-box about">
+          <h1>about</h1>
+          <p>
+            그동안의 경력을 뒤로하고 육아와 병행하며 웹 퍼블리셔 공부를 독학했습니다. <br>어린 시절 포토샵과 나모 웹에디터로 홈페이지를 만들며 즐겼던 그때의 몰입감을 다시 떠올리며 새로운 도전을 시작합니다. <br> 
+            디테일을 놓치지 않는 섬세함과 계획적인 사고로 안정감 있는 결과물을 완성하겠습니다.
+          </p>
+          <a href="#none">자기소개 더보기
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="14" viewBox="0 0 40 14" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="2" y1="7" x2="34" y2="7" />
+              <polyline points="26,1 34,7 26,13" />
+            </svg>
+          </a>
+        </div>
+        <div class="about-main">
+          <div class="image-boxs">
+            <div class="img-box"><img src="image/about01.jpg" alt="about"></div>
+            <div class="img-box"><img src="image/about02.jpg" alt="about"></div>
+            <div class="img-box"><img src="image/about03.jpg" alt="about"></div>
+            <div class="img-box"><img src="image/about04.jpg" alt="about"></div>
+            <div class="img-box"><img src="image/about05.jpg" alt="about"></div>
+            <div class="img-box"><img src="image/about06.jpg" alt="about"></div>
+            <div class="about-title">
+              <h1>Is this the best solution?</h1>
+              <p>
+                저는 일을 할 때 스스로에게 최선을 다했는지 끊임없이 질문합니다. <br>
+                만족스러운 결과를 얻기 위해 항상 최선을 다합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flow-wrap">
+        <div class="flow-box">
+          <span>책임감</span>
+          <span>성실한</span>
+          <span>섬세한</span>
+          <span>팔로워쉽</span>
+          <span>계획적</span>
+          <span>한결같은</span>
+          <span>꾸준한</span>
+          <span>관찰력</span>
+          <span>합리적</span>
+          <span>협조적인</span>
+          <!-- copy -->
+          <span>책임감</span>
+          <span>성실한</span>
+          <span>섬세한</span>
+          <span>팔로워쉽</span>
+          <span>계획적</span>
+          <span>한결같은</span>
+          <span>꾸준한</span>
+          <span>관찰력</span>
+          <span>합리적</span>
+          <span>협조적인</span>
+        </div>
+      </div>
+      <div class="skill-content">
+        <div class="sub-box skills">
+          <h1>skills</h1>
+          <p>
+            HTML, CSS, JavaScript, JQuery 코딩 스킬을 보유 하고 있으며, <br>
+            Figma, Photoshop, Illustrator 와 같은 디자인툴을 사용할 수 있습니다.
+          </p>
+        </div>
+        <div class="skill-cards">
+          <!-- 카드 1 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 90;" />
+                </svg>
+                <span class="label">HTML</span>
+              </div>
+              <p class="tool-name">HTML</p>
+            </div>
+            <div class="card-back">
+              <h3>HTML</h3>
+              <span>90%</span>
+              <p>
+                웹 접근성을 고려한 마크업을 지향하며<br>
+                유지보수에 용이한 코드를 작성합니다.<br>
+              </p>
+            </div>
+          </div>
+          <!-- 카드 2 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 85;" />
+                </svg>
+                <span class="label">CSS</span>
+              </div>
+              <p class="tool-name">CSS</p>
+            </div>
+            <div class="card-back">
+              <h3>CSS</h3>
+              <span>85%</span>
+              <p>
+                Flex와 Grid로 레이아웃을 구성하며 <br>
+                기기에 맞는 반응형을 적용합니다.
+              </p>
+            </div>
+          </div>
+          <!-- 카드 3 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 60;" />
+                </svg>
+                <span class="label">JS</span>
+              </div>
+              <p class="tool-name">JavaScript</p>
+            </div>
+            <div class="card-back">
+              <h3>JavaScript</h3>
+              <span>60%</span>
+              <p>
+                기본 문법과 DOM 제어를 이해하며 <br>
+                인터랙션 기능을 구현할 수 있습니다.
+              </p>
+            </div>
+          </div>
+          <!-- 카드 4 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 60;" />
+                </svg>
+                <span class="label">JQ</span>
+              </div>
+              <p class="tool-name">JQuery</p>
+            </div>
+            <div class="card-back">
+              <h3>JQuery</h3>
+              <span>60%</span>
+              <p>
+                필요한 요소를 선택하고 제어하며 <br>
+                애니메이션과 이벤트 처리를 다룹니다.
+              </p>
+            </div>
+          </div>
+          <!-- 카드 5 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 70;" />
+                </svg>
+                <span class="label">Fig</span>
+              </div>
+              <p class="tool-name">Figma</p>
+            </div>
+            <div class="card-back">
+              <h3>Figma</h3>
+              <span>70%</span>
+              <p>
+                UI 구성과 컴포넌트 활용에 익숙하며<br>
+                프로토타입 제작이 가능합니다.
+              </p>
+            </div>
+          </div>
+          <!-- 카드 6 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 60;" />
+                </svg>
+                <span class="label">Ps</span>
+              </div>
+              <p class="tool-name">Photoshop</p>
+            </div>
+            <div class="card-back">
+              <h3>Photoshop</h3>
+              <span>60%</span>
+              <p>
+                이미지 보정과 편집 작업을 하며<br>
+                배너나 썸네일 디자인을 제작합니다.
+              </p>
+            </div>
+          </div>
+          <!-- 카드 7 -->
+          <div class="skill-card">
+            <div class="card-front">
+              <div class="circle">
+                <svg viewBox="0 0 120 120">
+                  <circle class="bg" cx="60" cy="60" r="50" />
+                  <circle class="bar" cx="60" cy="60" r="50" style="--percent: 50;" />
+                </svg>
+                <span class="label">Ai</span>
+              </div>
+              <p class="tool-name">Illustrator</p>
+            </div>
+            <div class="card-back">
+              <h3>Illustrator</h3>
+              <span>50%</span>
+              <p>
+                아이콘이나 로고를 직접 제작하며<br>
+                벡터 작업 도구를 다룰 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flow-wrap">
+        <div class="flow-box">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>JQuery</span>
+          <span>Figma</span>
+          <span>Photoshop</span>
+          <span>Illustrator</span>
+          <!-- copy -->
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>JQuery</span>
+          <span>Figma</span>
+          <span>Photoshop</span>
+          <span>Illustrator</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Works -->
+  <section class="works">
+    <div class="inner">
+      <div class="clone-content">
+        <div class="sub-box clone">
+          <h1>Clone Coding</h1>
+          <p>
+            인프런 온라인 강의 교육과정 에서 배운 크루알라모드, 한화케미컬, 돕다컨시어지 등 <br> 다양한 홈페이지를 제작한 클론코딩 작업물 입니다.
+          </p>
+          <a href="#none">작업물 더보기
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="14" viewBox="0 0 40 14" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="2" y1="7" x2="34" y2="7" />
+              <polyline points="26,1 34,7 26,13" />
+            </svg>
+          </a>
+        </div>
+        <div class="clone-items">
+          <div class="clone-item">
+            <a class="clone-box" href="https://gahee1560.github.io/The-World-Best-City/" target="_blank">
+              <div class="clone-top">
+                <div class="clone-desc">
+                  <h3>The World Best City</h3>
+                  <span>#플렉스 #제이쿼리 #슬릭슬라이더</span>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="19" x2="19" y2="5" />
+                    <polyline points="5 5 19 5 19 19" />
+                  </svg>
+                </div>
+              </div>
+              <div class="clone-bottom">
+                <img src="image/works-clone01.png" alt="clone01">
+              </div>
+            </a>
+          </div>
+          <div class="clone-item">
+            <a class="clone-box" href="#none">
+              <div class="clone-top">
+                <div class="clone-desc">
+                  <h3>Crewalamode</h3>
+                  <span>Flex</span>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="19" x2="19" y2="5" />
+                    <polyline points="5 5 19 5 19 19" />
+                  </svg>
+                </div>
+              </div>
+              <div class="clone-bottom">
+                <img src="" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="clone-item">
+            <a class="clone-box" href="#none">
+              <div class="clone-top">
+                <div class="clone-desc">
+                  <h3>samsung</h3>
+                  <span>Flex</span>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="19" x2="19" y2="5" />
+                    <polyline points="5 5 19 5 19 19" />
+                  </svg>
+                </div>
+              </div>
+              <div class="clone-bottom">
+                <img src="" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="clone-item">
+            <a class="clone-box" href="#none">
+              <div class="clone-top">
+                <div class="clone-desc">
+                  <h3>Best City</h3>
+                  <span>Flex</span>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="19" x2="19" y2="5" />
+                    <polyline points="5 5 19 5 19 19" />
+                  </svg>
+                </div>
+              </div>
+              <div class="clone-bottom">
+                <img src="" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="renewal-content">
+        <div class="sub-box renewal">
+          <h1>Renewal</h1>
+          <p>
+            미스소희, 미래여성병원 등 피그마를 사용하여 디자인 레이아웃을 완성한 뒤 <br> 직접 퍼블리싱 하여 제작한 홈페이지 리뉴얼 작업물입니다.
+          </p>
+          <a href="#none">작업물 더보기
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="14" viewBox="0 0 40 14" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="2" y1="7" x2="34" y2="7" />
+              <polyline points="26,1 34,7 26,13" />
+            </svg>
+          </a>
+        </div>
+        <div class="renewal-items">
+          <div class="renewal-left">
+            <ul class="renewal-list">
+              <li class="renewal-item" data-index="0">
+                <a href="#none">
+                  <h2>miss sohee</h2>
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="19" x2="19" y2="5" />
+                      <polyline points="5 5 19 5 19 19" />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <hr class="renewal-bar">
+              <li class="renewal-item" data-index="0">
+                <a href="#none">
+                  <h2>mirae women hospital</h2>
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="19" x2="19" y2="5" />
+                      <polyline points="5 5 19 5 19 19" />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <hr class="renewal-bar">
+              <li class="renewal-item" data-index="0">
+                <a href="#none">
+                  <h2>nvjae</h2>
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="19" x2="19" y2="5" />
+                      <polyline points="5 5 19 5 19 19" />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <hr class="renewal-bar">
+              <li class="renewal-item" data-index="0">
+                <a href="#none">
+                  <h2>sulwhasoo</h2>
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="19" x2="19" y2="5" />
+                      <polyline points="5 5 19 5 19 19" />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <hr class="renewal-bar">
+              <li class="renewal-item" data-index="0">
+                <a href="#none">
+                  <h2>blanc101</h2>
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="19" x2="19" y2="5" />
+                      <polyline points="5 5 19 5 19 19" />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <hr class="renewal-bar">
+            </ul>
+          </div>
+          <div class="renewal-right">
+            <div class="renewal-image">
+              <img src="https://placehold.co/500x300" alt="renewal">
+              <img src="https://placehold.co/500x300" alt="renewal">
+              <img src="https://placehold.co/500x300" alt="renewal">
+              <img src="https://placehold.co/500x300" alt="renewal">
+              <img src="https://placehold.co/500x300" alt="renewal">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Process -->
+  <section class="process">
+    <div class="inner">
+      <div class="process-content">
+        <div class="sub-box process">
+          <h1>process</h1>
+          <p>
+            아이디어 스케치, 브레인 스토밍, 피그마 디자인 레이아웃 등 <br>
+            각종 레퍼런스를 수집하여 기획부터 디자인 레이아웃까지의 과정을 담은 내용입니다.
+          </p>
+          <a href="#none">프로세스 더보기
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="14" viewBox="0 0 40 14" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="2" y1="7" x2="34" y2="7" />
+              <polyline points="26,1 34,7 26,13" />
+            </svg>
+          </a>
+        </div>
+        <div class="process-wrap">
+          <div class="process-items">
+            <div class="process-item">
+              <img src="https://placehold.co/500x400" alt="process">
+              <span>
+                <p>
+                  아이디어 스케치를 통해 흐름에 맞는 전체 구성을 설계했습니다.
+                </p>
+              </span>
+            </div>
+            <div class="process-item">
+              <img src="image/brainstoming.png" alt="brainstoming">
+              <span>
+                <p>
+                  브레인스토밍으로 다양한 아이디어를 정리하고 구체화했습니다.
+                </p>
+              </span>
+            </div>
+            <div class="process-item">
+              <img src="image/information.png" alt="information">
+              <span>
+                <p>
+                  정보구조도를 활용해 콘텐츠 흐름과 메뉴 구성을 체계화했습니다.
+                </p>
+              </span>
+            </div>
+            <div class="process-item">
+              <img src="image/figma.png" alt="figma">
+              <span>
+                <p>
+                  피그마를 사용하여 디자인과 레이아웃을 시각적으로 구현했습니다.
+                </p>
+              </span>
+            </div>
+            <div class="process-item">
+              <img src="image/publishing.png" alt="publishing">
+              <span>
+                <p>
+                  최종 디자인을 바탕으로 실제 웹처럼 퍼블리싱을 진행했습니다.
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section class="contact">
+    <div class="inner">
+      <div class="contact-content">
+        <div class="contact-left">
+          <h2 class="contact-title">
+            Thank you for <br> reviewing my portfolio <br>
+            I look forward to <br> connecting with you!
+          </h2>
+          <div class="contact-boxs">
+            <div class="contact-box">
+              <a href="#none">gahee1560@gmail.com</a>
+            </div>
+            <div class="contact-box">
+              <a href="#none">010-3239-1634</a>
+            </div>
+            <div class="contact-box">
+              <a href="#none">resume PDF</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <span>gahee Kim</span>
+          <span>Busan daeyeon-dong</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+</html>
